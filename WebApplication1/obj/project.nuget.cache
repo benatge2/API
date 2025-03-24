@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9tUHnxEwNqM=",
+  "dgSpecHash": "n5SUsv41UEA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Benatge\\Desktop\\Clase\\EKS\\WebApplication1 (2)\\WebApplication1\\WebApplication1\\API_Erronka.csproj",
+  "projectFilePath": "C:\\Users\\Benatge\\Desktop\\Clase\\EKS\\WebApplication1 (2)\\API\\WebApplication1\\API_Erronka.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Benatge\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\Benatge\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",

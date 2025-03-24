@@ -17,6 +17,7 @@ namespace API.Controllers
         private readonly string databasePassword = "1WMG2023";
         private readonly string port = "3306";
 
+        //using (var reader = (MySqlDataReader)await command.ExecuteReaderAsync())
         // Método para obtener la conexión a la base de datos
         private MySqlConnection GetDbConnection()
         {
@@ -148,6 +149,92 @@ namespace API.Controllers
             catch (Exception ex)
             {
                 return StatusCode(500, new { message = ex.Message }); // Devuelve un error si ocurre
+            }
+        }
+
+        [HttpGet("GetPlatosConIngredientes")]
+        public async Task<IActionResult> GetPlatosConIngredientes()
+        {
+            try
+            {
+                var platosConIngredientes = new Dictionary<string, List<string>>();
+
+                using (MySqlConnection connection = GetDbConnection())
+                {
+                    await connection.OpenAsync();
+
+                    string query = @"
+                        SELECT 
+                            p.izena AS plato,
+                            a.izena AS ingrediente
+                        FROM almazena_platera ap
+                        JOIN platera p ON ap.platera_id = p.id
+                        JOIN almazena a ON ap.almazena_id = a.id
+                        ORDER BY p.izena, a.izena;
+                    ";
+
+                    using (MySqlCommand command = new MySqlCommand(query, connection))
+                    using (var reader = (MySqlDataReader)await command.ExecuteReaderAsync())
+                    {
+                        while (await reader.ReadAsync())
+                        {
+                            string plato = reader["plato"].ToString();
+                            string ingrediente = reader["ingrediente"].ToString();
+
+                            if (!platosConIngredientes.ContainsKey(plato))
+                            {
+                                platosConIngredientes[plato] = new List<string>();
+                            }
+                            platosConIngredientes[plato].Add(ingrediente);
+                        }
+                    }
+                }
+
+                return Ok(platosConIngredientes); // Devuelve la respuesta en formato JSON
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = ex.Message });
+            }
+        }
+
+        [HttpGet("GetLangileak")]
+        public async Task<IActionResult> GetLangileak()
+        {
+            try
+            {
+                var langileak = new List<Dictionary<string, object>>();
+
+                using (MySqlConnection connection = GetDbConnection())
+                {
+                    await connection.OpenAsync();
+
+                    string query = "SELECT * FROM langilea;";
+
+                    using (MySqlCommand command = new MySqlCommand(query, connection))
+                    using (var reader = (MySqlDataReader)await command.ExecuteReaderAsync())
+                    {
+                        while (await reader.ReadAsync())
+                        {
+                            var langilea = new Dictionary<string, object>();
+
+                            for (int i = 0; i < reader.FieldCount; i++)
+                            {
+                                string columnName = reader.GetName(i);
+                                object value = reader.IsDBNull(i) ? null : reader.GetValue(i);
+                                langilea[columnName] = value;
+                            }
+
+                            langileak.Add(langilea);
+                        }
+                    }
+                }
+
+                return Ok(langileak); // Devuelve la lista de empleados en formato JSON
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = ex.Message });
             }
         }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Benatge\\Desktop\\Clase\\EKS\\WebApplication1 (2)\\WebApplication1\\WebApplication1\\API_Erronka.csproj": {}
+    "C:\\Users\\Benatge\\Desktop\\Clase\\EKS\\WebApplication1 (2)\\API\\WebApplication1\\API_Erronka.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Benatge\\Desktop\\Clase\\EKS\\WebApplication1 (2)\\WebApplication1\\WebApplication1\\API_Erronka.csproj": {
+    "C:\\Users\\Benatge\\Desktop\\Clase\\EKS\\WebApplication1 (2)\\API\\WebApplication1\\API_Erronka.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Benatge\\Desktop\\Clase\\EKS\\WebApplication1 (2)\\WebApplication1\\WebApplication1\\API_Erronka.csproj",
+        "projectUniqueName": "C:\\Users\\Benatge\\Desktop\\Clase\\EKS\\WebApplication1 (2)\\API\\WebApplication1\\API_Erronka.csproj",
         "projectName": "API_Erronka",
-        "projectPath": "C:\\Users\\Benatge\\Desktop\\Clase\\EKS\\WebApplication1 (2)\\WebApplication1\\WebApplication1\\API_Erronka.csproj",
+        "projectPath": "C:\\Users\\Benatge\\Desktop\\Clase\\EKS\\WebApplication1 (2)\\API\\WebApplication1\\API_Erronka.csproj",
         "packagesPath": "C:\\Users\\Benatge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Benatge\\Desktop\\Clase\\EKS\\WebApplication1 (2)\\WebApplication1\\WebApplication1\\obj\\",
+        "outputPath": "C:\\Users\\Benatge\\Desktop\\Clase\\EKS\\WebApplication1 (2)\\API\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

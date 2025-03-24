@@ -28,5 +28,15 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.Odoo_iController",
+    "Method": "GetPlatosConIngredientes",
+    "RelativePath": "api/Odoo_i/GetPlatosConIngredientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

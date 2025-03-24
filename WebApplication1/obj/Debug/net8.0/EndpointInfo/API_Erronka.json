@@ -40,6 +40,18 @@
           }
         }
       }
+    },
+    "/api/Odoo_i/GetPlatosConIngredientes": {
+      "get": {
+        "tags": [
+          "Odoo_i"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": { }
