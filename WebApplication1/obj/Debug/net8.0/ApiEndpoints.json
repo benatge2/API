@@ -1,0 +1,32 @@
+[
+  {
+    "ContainingType": "API.Controllers.Odoo_iController",
+    "Method": "GetAlmazena",
+    "RelativePath": "api/Odoo_i/GetAlmazena",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.Odoo_iController",
+    "Method": "GetEgunerokoBezeroak",
+    "RelativePath": "api/Odoo_i/GetEskaeraKopurua",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.Odoo_iController",
+    "Method": "GetPlatera",
+    "RelativePath": "api/Odoo_i/GetPlatera",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

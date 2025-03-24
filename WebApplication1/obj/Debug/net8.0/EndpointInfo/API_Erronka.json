@@ -1,0 +1,46 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "API_Erronka",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Odoo_i/GetEskaeraKopurua": {
+      "get": {
+        "tags": [
+          "Odoo_i"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Odoo_i/GetAlmazena": {
+      "get": {
+        "tags": [
+          "Odoo_i"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Odoo_i/GetPlatera": {
+      "get": {
+        "tags": [
+          "Odoo_i"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
