@@ -12,7 +12,47 @@
   {
     "ContainingType": "API.Controllers.Odoo_iController",
     "Method": "GetEgunerokoBezeroak",
-    "RelativePath": "api/Odoo_i/GetEskaeraKopurua",
+    "RelativePath": "api/Odoo_i/GetEgunerokoBezeroak",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.Odoo_iController",
+    "Method": "GetLangileak",
+    "RelativePath": "api/Odoo_i/GetLangileak",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.Odoo_iController",
+    "Method": "GetMesas",
+    "RelativePath": "api/Odoo_i/GetMesas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.Odoo_iController",
+    "Method": "GetPedidosPlatos",
+    "RelativePath": "api/Odoo_i/GetPedidosPlatos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.Odoo_iController",
+    "Method": "GetPedidosPorCamareroPorDia",
+    "RelativePath": "api/Odoo_i/GetPedidosPorCamareroPorDia",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -33,6 +73,16 @@
     "ContainingType": "API.Controllers.Odoo_iController",
     "Method": "GetPlatosConIngredientes",
     "RelativePath": "api/Odoo_i/GetPlatosConIngredientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.Odoo_iController",
+    "Method": "GetPlatosMasPedidos",
+    "RelativePath": "api/Odoo_i/GetPlatosMasPedidos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
