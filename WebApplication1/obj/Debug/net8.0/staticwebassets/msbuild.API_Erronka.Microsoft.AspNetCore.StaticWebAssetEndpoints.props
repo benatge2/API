@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\API_Erronka.mmz22yqymd.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IrXaTy\u002BU0z\u002BWSJ72QMu4Jcv4mJM/aZ7OIV3tMh\u002BqdVI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022IrXaTy\u002BU0z\u002BWSJ72QMu4Jcv4mJM/aZ7OIV3tMh\u002BqdVI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Mar 2025 13:38:28 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022IrXaTy\u002BU0z\u002BWSJ72QMu4Jcv4mJM/aZ7OIV3tMh\u002BqdVI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Mar 2025 12:29:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/API_Erronka/API_Erronka.mmz22yqymd.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\API_Erronka.mmz22yqymd.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mmz22yqymd"},{"Name":"integrity","Value":"sha256-IrXaTy\u002BU0z\u002BWSJ72QMu4Jcv4mJM/aZ7OIV3tMh\u002BqdVI="},{"Name":"label","Value":"_content/API_Erronka/API_Erronka.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022IrXaTy\u002BU0z\u002BWSJ72QMu4Jcv4mJM/aZ7OIV3tMh\u002BqdVI=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Mar 2025 13:38:28 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022IrXaTy\u002BU0z\u002BWSJ72QMu4Jcv4mJM/aZ7OIV3tMh\u002BqdVI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Mar 2025 12:29:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/API_Erronka/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
